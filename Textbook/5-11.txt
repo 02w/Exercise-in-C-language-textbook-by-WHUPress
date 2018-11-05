@@ -1,0 +1,18 @@
+a) #define FIB 0.628
+
+/* the smallest number among a, b, c */
+b) #define MIX(a, b, c) ((a) < (b)) ? (((a) < (c)) ? (a) : (c)) : ((b) < (c)) ? (b) : (c)
+
+c) #define CUBE_VOLUME(a) ((a) * (a) * (a))
+
+d) #include "common.h"
+
+e) #ifdef TRUE
+       #undefine TRUE
+       #define TRUE 1
+
+f) #if TRUE
+       #define FALSE 0
+   #else
+       #define FALSE 1
+   #endif

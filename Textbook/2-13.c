@@ -26,7 +26,6 @@ void Multi(int a, int b)
     }
     else
     {
-        int result = a * b;
         printf("a * b = %d\n", result);
     }
 }
